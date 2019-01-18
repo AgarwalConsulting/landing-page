@@ -1,3 +1,5 @@
+import css from "../style.scss"
+
 export default () => (
   <div className="container">
     <div className="row justify-content-md-center">
