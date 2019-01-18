@@ -2,7 +2,7 @@ export default () => (
   <div className="container">
     <div className="row justify-content-md-center">
       <div className="col col-lg-6">
-        Thank you for showing interest in CoderMana project!
+        Thank you for showing interest in AgarwalConsulting.io project!
       </div>
     </div>
 
