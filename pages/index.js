@@ -43,7 +43,7 @@ export default () => (
           <div className="hero-inner">
             <h1 className="hero-title h2-mobile mt-0 is-revealing">Agarwal Consulting</h1>
             <p className="hero-paragraph is-revealing">We build software.</p>
-            <form custom-attribute="netlify">
+            <form data-netlify={true}>
               <div className="hero-form newsletter-form field field-grouped is-revealing">
                 <div className="control control-expanded">
                   <input className="input" type="email" name="email" placeholder="Your best email&hellip;"/>
@@ -172,7 +172,7 @@ export default () => (
             <div className="newsletter-header text-center is-revealing">
               <h2 className="section-title mt-0">Learn about our training offerings</h2>
             </div>
-            <form custom-attribute="netlify">
+            <form data-netlify={true}>
               <div className="footer-form newsletter-form field field-grouped is-revealing">
                 <div className="control control-expanded">
                   <input className="input" type="email" name="email" placeholder="Your best email&hellip;"/>
