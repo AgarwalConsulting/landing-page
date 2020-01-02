@@ -54,7 +54,7 @@ export default () => (
           </li>
         </ul>
         <SocialLinks/>
-        <div className="footer-copyright">&copy; 2019 Agarwal Consulting, all rights reserved</div>
+        <div className="footer-copyright">&copy; {(new Date()).getFullYear()} Agarwal Consulting, all rights reserved</div>
       </div>
     </div>
   </footer>
